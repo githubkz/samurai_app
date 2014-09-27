@@ -9,6 +9,10 @@
 /log/*.log
 /tmp
 
+/db/migrate/20140927120005_drop_table_micropost.rb
+
+
+
 # Ignore other unneeded files.
 doc/
 *.swp
