@@ -9,7 +9,7 @@ class SessionsController < ApplicationController
 			#ユーザーサインインさせて showにリダイレクト
 
 			sign_in user
-			redirect_to user
+			redirect_back_or user
 
 		else
 			#エラーメッセージ

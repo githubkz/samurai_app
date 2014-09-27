@@ -18,6 +18,13 @@ gem 'jbuilder', '1.0.2'
 #暗号化
 gem 'bcrypt-ruby', '3.1.2'
 
+#仮user
+gem 'faker', '1.1.2'
+
+#pager
+gem 'will_paginate', '3.0.4'
+gem 'bootstrap-will_paginate', '0.0.9'
+
 
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets', '2.11.0'
